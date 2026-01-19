@@ -90,7 +90,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -101,6 +101,23 @@ GenerateClassCluster=0
 DocumentUniqueId=GBZSZRII
 
 [Document4]
+DocumentPath=ZHSD-Power-Decoupling.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=5
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DSNWIQTF
+
+[Document5]
 DocumentPath=ZHSD-DDR3L.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XCNGXGOB
 
-[Document5]
+[Document6]
 DocumentPath=ZHSD-ZYNQ.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DWTQKAHQ
 
-[Document6]
+[Document7]
 DocumentPath=ZHSD-DDR3L.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document8]
 DocumentPath=ZHSD-ZYNQ.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document9]
 DocumentPath=ZYNQ-HS-DEV-PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,14 +202,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PMIIUIUI
 
-[Document9]
+[Document10]
 DocumentPath=ZHSD-ZYNQ-CONFIG.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -202,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BVMCSJWW
 
-[Document10]
+[Document11]
 DocumentPath=ZHSD-ZYNQ-CONFIG.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,14 +236,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document12]
 DocumentPath=ZHSD-JTAG.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -236,7 +253,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FQPJXLVB
 
-[Document12]
+[Document13]
 DocumentPath=ZHSD-JTAG.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1247,40 +1264,100 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=UK_Library.IntLib
-ComponentDesignItemID0=FT232HL
-ComponentSymbolReference0=FT232HL
-ComponentUpdate0=0
+ComponentDesignItemID0=CMS04
+ComponentSymbolReference0=CMS04
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=UK_Library.IntLib
-ComponentDesignItemID1=KLS1-DC-005A
-ComponentSymbolReference1=KLS1-DC-005A
-ComponentUpdate1=0
+ComponentDesignItemID1=CRCW0603100KFKEA
+ComponentSymbolReference1=CRCW0603100KFKEA
+ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=UK_Library.IntLib
-ComponentDesignItemID2=XC7Z020-2CLG400I
-ComponentSymbolReference2=XC7Z020-2CLG400I
-ComponentUpdate2=0
+ComponentDesignItemID2=CRCW06031M00FKEA
+ComponentSymbolReference2=CRCW06031M00FKEA
+ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=UK_Library_SCH.SchLib
-ComponentDesignItemID3=CRCW0603100KFKEA
-ComponentSymbolReference3=CRCW0603100KFKEA
+ComponentLibraryIdentifier3=UK_Library.IntLib
+ComponentDesignItemID3=FT232HL
+ComponentSymbolReference3=FT232HL
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=UK_Library_SCH.SchLib
-ComponentDesignItemID4=MT41K256M16TW-107 IT:P
-ComponentSymbolReference4=MT41K256M16TW-107 IT:P
-ComponentUpdate4=0
+ComponentLibraryIdentifier4=UK_Library.IntLib
+ComponentDesignItemID4=GCM188R71H102KA37D
+ComponentSymbolReference4=GCM188R71H102KA37D
+ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=UK_Library_SCH.SchLib
-ComponentDesignItemID5=TPS259250DRCR
-ComponentSymbolReference5=TPS259250DRCR
-ComponentUpdate5=0
+ComponentLibraryIdentifier5=UK_Library.IntLib
+ComponentDesignItemID5=GRM188R61E105KA12D
+ComponentSymbolReference5=GRM188R61E105KA12D
+ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=UK_Library.IntLib
+ComponentDesignItemID6=GRM188R70J474KA01D
+ComponentSymbolReference6=GRM188R70J474KA01D
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=UK_Library.IntLib
+ComponentDesignItemID7=GRM21BR71A475KE51L
+ComponentSymbolReference7=GRM21BR71A475KE51L
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=UK_Library.IntLib
+ComponentDesignItemID8=GRM32EE70G107ME19L
+ComponentSymbolReference8=GRM32EE70G107ME19L
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=UK_Library.IntLib
+ComponentDesignItemID9=GRM32ER70J476ME20L
+ComponentSymbolReference9=GRM32ER70J476ME20L
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=UK_Library.IntLib
+ComponentDesignItemID10=KLS1-DC-005A
+ComponentSymbolReference10=KLS1-DC-005A
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=UK_Library.IntLib
+ComponentDesignItemID11=MT41K256M16TW-107 IT:P
+ComponentSymbolReference11=MT41K256M16TW-107 IT:P
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=UK_Library.IntLib
+ComponentDesignItemID12=T525D337M006ATE025
+ComponentSymbolReference12=T525D337M006ATE025
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=UK_Library.IntLib
+ComponentDesignItemID13=TPS259250DRCR
+ComponentSymbolReference13=TPS259250DRCR
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=UK_Library.IntLib
+ComponentDesignItemID14=TPS62823DLCR
+ComponentSymbolReference14=TPS62823DLCR
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=UK_Library.IntLib
+ComponentDesignItemID15=XC7Z020-2CLG400I
+ComponentSymbolReference15=XC7Z020-2CLG400I
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1320,48 +1397,74 @@ ParameterName11=ComponentLink5URL
 ParameterUpdate11=1
 ParameterName12=Description
 ParameterUpdate12=1
-ParameterName13=Library Reference
+ParameterName13=ESR
 ParameterUpdate13=1
-ParameterName14=Manufacturer
+ParameterName14=Library Reference
 ParameterUpdate14=1
-ParameterName15=Manufacturer Part Number
+ParameterName15=Manufacturer
 ParameterUpdate15=1
-ParameterName16=MPN
+ParameterName16=Manufacturer Part Number
 ParameterUpdate16=1
-ParameterName17=Package
+ParameterName17=MPN
 ParameterUpdate17=1
-ParameterName18=Tolerance
+ParameterName18=Package
 ParameterUpdate18=1
-ParameterName19=Value
+ParameterName19=Tolerance
 ParameterUpdate19=1
-ParameterName20=Voltage
+ParameterName20=Value
 ParameterUpdate20=1
+ParameterName21=Voltage
+ParameterUpdate21=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=0603CC1608X05L
+ModelName0=0603CAPC1608X09L
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=0603CC1608X05M
+ModelName1=0603CAPC1608X09M
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=0603CC1608X05N
+ModelName2=0603CAPC1608X09N
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=BGA400C80P20X20_1700X1700X147
+ModelName3=0603RESC1608X05L
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=BGA96C80P9X16_900X1400X110
+ModelName4=0603RESC1608X05M
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=CONN-KLS1-DC-005A
+ModelName5=0603RESC1608X05N
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=LQFP50P900X900X160-48N
+ModelName6=0805CAPC2012X14N
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=VSON50P300X100_HS-11N
+ModelName7=1210CAPC3225X27N
 ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=BGA400C80P20X20_1700X1700X147
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=BGA96C80P9X16_900X1400X110
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=CONN-KLS1-DC-005A
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=LQFP50P900X900X160-48N
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=SOD-128
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=T525D337M006ATE025
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=VSON50P150X100-8N
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=VSON50P300X100_HS-11N
+ModelUpdate15=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1370,38 +1473,43 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=DDR_DQ0|NetColor=$00FF6633
-Net2=NetName=DDR_DQ1|NetColor=$00FF6633
-Net3=NetName=DDR_DQ10|NetColor=$00660000
-Net4=NetName=DDR_DQ11|NetColor=$00660000
-Net5=NetName=DDR_DQ12|NetColor=$00660000
-Net6=NetName=DDR_DQ13|NetColor=$00660000
-Net7=NetName=DDR_DQ14|NetColor=$00660000
-Net8=NetName=DDR_DQ15|NetColor=$00660000
-Net9=NetName=DDR_DQ2|NetColor=$00FF6633
-Net10=NetName=DDR_DQ3|NetColor=$00FF6633
-Net11=NetName=DDR_DQ4|NetColor=$00FF6633
-Net12=NetName=DDR_DQ5|NetColor=$00FF6633
-Net13=NetName=DDR_DQ6|NetColor=$00FF6633
-Net14=NetName=DDR_DQ7|NetColor=$00FF6633
-Net15=NetName=DDR_DQ8|NetColor=$00660000
-Net16=NetName=DDR_DQ9|NetColor=$00660000
-Net17=NetName=DDR3L_BL0.DDR_DQ0|NetColor=$00FF6633
-Net18=NetName=DDR3L_BL0.DDR_DQ1|NetColor=$00FF6633
-Net19=NetName=DDR3L_BL0.DDR_DQ2|NetColor=$00FF6633
-Net20=NetName=DDR3L_BL0.DDR_DQ3|NetColor=$00FF6633
-Net21=NetName=DDR3L_BL0.DDR_DQ4|NetColor=$00FF6633
-Net22=NetName=DDR3L_BL0.DDR_DQ5|NetColor=$00FF6633
-Net23=NetName=DDR3L_BL0.DDR_DQ6|NetColor=$00FF6633
-Net24=NetName=DDR3L_BL0.DDR_DQ7|NetColor=$00FF6633
-Net25=NetName=DDR3L_BL1.DDR_DQ0|NetColor=$00660000
-Net26=NetName=DDR3L_BL1.DDR_DQ1|NetColor=$00660000
-Net27=NetName=DDR3L_BL1.DDR_DQ2|NetColor=$00660000
-Net28=NetName=DDR3L_BL1.DDR_DQ3|NetColor=$00660000
-Net29=NetName=DDR3L_BL1.DDR_DQ4|NetColor=$00660000
-Net30=NetName=DDR3L_BL1.DDR_DQ5|NetColor=$00660000
-Net31=NetName=DDR3L_BL1.DDR_DQ6|NetColor=$00660000
-Net32=NetName=DDR3L_BL1.DDR_DQ7|NetColor=$00660000
+Net1=NetName=+1V0|NetColor=$000066FF
+Net2=NetName=+1V35|NetColor=$00330099
+Net3=NetName=+1V8|NetColor=$00003399
+Net4=NetName=+3V3|NetColor=$00660066
+Net5=NetName=DDR_DQ0|NetColor=$00FF6633
+Net6=NetName=DDR_DQ1|NetColor=$00FF6633
+Net7=NetName=DDR_DQ10|NetColor=$00660000
+Net8=NetName=DDR_DQ11|NetColor=$00660000
+Net9=NetName=DDR_DQ12|NetColor=$00660000
+Net10=NetName=DDR_DQ13|NetColor=$00660000
+Net11=NetName=DDR_DQ14|NetColor=$00660000
+Net12=NetName=DDR_DQ15|NetColor=$00660000
+Net13=NetName=DDR_DQ2|NetColor=$00FF6633
+Net14=NetName=DDR_DQ3|NetColor=$00FF6633
+Net15=NetName=DDR_DQ4|NetColor=$00FF6633
+Net16=NetName=DDR_DQ5|NetColor=$00FF6633
+Net17=NetName=DDR_DQ6|NetColor=$00FF6633
+Net18=NetName=DDR_DQ7|NetColor=$00FF6633
+Net19=NetName=DDR_DQ8|NetColor=$00660000
+Net20=NetName=DDR_DQ9|NetColor=$00660000
+Net21=NetName=DDR3L_BL0.DDR_DQ0|NetColor=$00FF6633
+Net22=NetName=DDR3L_BL0.DDR_DQ1|NetColor=$00FF6633
+Net23=NetName=DDR3L_BL0.DDR_DQ2|NetColor=$00FF6633
+Net24=NetName=DDR3L_BL0.DDR_DQ3|NetColor=$00FF6633
+Net25=NetName=DDR3L_BL0.DDR_DQ4|NetColor=$00FF6633
+Net26=NetName=DDR3L_BL0.DDR_DQ5|NetColor=$00FF6633
+Net27=NetName=DDR3L_BL0.DDR_DQ6|NetColor=$00FF6633
+Net28=NetName=DDR3L_BL0.DDR_DQ7|NetColor=$00FF6633
+Net29=NetName=DDR3L_BL1.DDR_DQ0|NetColor=$00660000
+Net30=NetName=DDR3L_BL1.DDR_DQ1|NetColor=$00660000
+Net31=NetName=DDR3L_BL1.DDR_DQ2|NetColor=$00660000
+Net32=NetName=DDR3L_BL1.DDR_DQ3|NetColor=$00660000
+Net33=NetName=DDR3L_BL1.DDR_DQ4|NetColor=$00660000
+Net34=NetName=DDR3L_BL1.DDR_DQ5|NetColor=$00660000
+Net35=NetName=DDR3L_BL1.DDR_DQ6|NetColor=$00660000
+Net36=NetName=DDR3L_BL1.DDR_DQ7|NetColor=$00660000
+Net37=NetName=GND|NetColor=$00003300
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
