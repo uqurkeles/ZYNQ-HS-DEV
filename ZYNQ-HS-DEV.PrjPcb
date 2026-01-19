@@ -135,7 +135,7 @@ GenerateClassCluster=0
 DocumentUniqueId=XCNGXGOB
 
 [Document6]
-DocumentPath=ZHSD-ZYNQ.SchDoc
+DocumentPath=ZHSD-ZYNQ-DDR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -169,7 +169,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document8]
-DocumentPath=ZHSD-ZYNQ.Harness
+DocumentPath=ZHSD-ZYNQ-DDR.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
