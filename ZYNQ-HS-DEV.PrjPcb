@@ -67,7 +67,7 @@ GenerateClassCluster=0
 DocumentUniqueId=KSBADIVS
 
 [Document2]
-DocumentPath=ZHSD-Power.SchDoc
+DocumentPath=ZHSD-POWER.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -84,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=GBZSZRII
 
 [Document3]
-DocumentPath=ZHSD-Power-Decoupling.SchDoc
+DocumentPath=ZHSD-ZYNQ-PWR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -271,7 +271,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document14]
-DocumentPath=ZHSD_BOOT-STORAGE.SchDoc
+DocumentPath=ZHSD-BOOT-STORAGE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -288,7 +288,7 @@ GenerateClassCluster=0
 DocumentUniqueId=RFNLRSBK
 
 [Document15]
-DocumentPath=ZHSD_BOOT-STORAGE.Harness
+DocumentPath=ZHSD-BOOT-STORAGE.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -320,6 +320,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document17]
+DocumentPath=ZHSD-USB-OTG.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JPNCNJQA
 
 [Configuration1]
 Name=Sources
