@@ -1,0 +1,189 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\uqurk\Desktop\Projects\Advanced-Digital-Hardware-Design\ZYNQ-HS-DEV\ZYNQ-HS-DEV-PCB.PcbDoc
+Date     : 10.02.2026
+Time     : 03:42:50
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=0.254mm) (Preferred=0.1mm) (Disabled)(WithinRoom('ZYNQ_BGA'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=1mm) (Preferred=0.3mm) (Disabled)(InNetClass('PWR_NETS'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.119mm) (Max=0.254mm) (Preferred=0.254mm) (Disabled)(InNetClass('DDR3_ACC_S40'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=0.254mm) (Preferred=0.1mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Routing Topology Rule(Topology=Daisy_Simple) (InNetClass('DDR_AddressAndControls'))
+Rule Violations :0
+
+Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=5mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.15mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=10ps Target=DDR_CK_P_PP1_4) (InxSignalClass('ADDR_PP1'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=10ps) (InxSignalClass('ETH_RX_PP2'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=10ps Target=ETH_PS_TX_CLK-ETH.TXCLK_PP1) (InxSignalClass('ETH_TX_PP2'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=10ps Target=ETH_PS_TX_CLK_PP1) (InxSignalClass('ETH_TX_PP1'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=10ps) (InNetClass('HDMI_DATA'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=50ps) (InNetClass('eMMC'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=50ps) (InNetClass('QSPI'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=10ps) (InNetClass('USB_ULPI'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=10ps Target=DDR_DQS3_P_BL1_3) (InxSignalClass('DATA_BL1'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=10ps Target=DDR_DQS0_P_BL2_3) (InxSignalClass('DATA_BL2'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=15ps Target=DDR_CK_P_PP2_4) (InxSignalClass('ADDR_PP2'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=10ps Target=DDR_DQS2_P_BL0_3) (InxSignalClass('DATA_BL0'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=10ps) (InxSignalClass('ADDR_PP1') OR InxSignalClass('ADDR_PP2') OR InxSignalClass('DATA_BL0') OR InxSignalClass('DATA_BL1') OR InxSignalClass('DATA_BL2') OR InxSignalClass('DATA_BL3'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=10ps Target=ETH.RXCLK_PP1) (InxSignalClass('ETH_RX_PP1'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=10ps Target=DDR_DQS1_P_BL3_3) (InxSignalClass('DATA_BL3'))
+Rule Violations :0
+
+Processing Rule : Room ZYNQ_BGA (Bounding Region = (89.625mm, 64.2mm, 108.55mm, 82.95mm) (False)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Waived Violations Of Rule : Silk to Silk (Clearance=0.15mm) (All),(All)
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Arc (37.993mm,104.939mm) on Top Overlay And Text "JTAG" (32.825mm,102.676mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (0.001mm < 0.15mm) Between Area Fill (85.388mm,106.513mm) (86.249mm,106.8mm) on Top Overlay And Text "OTG" (86.55mm,105.976mm) on Top Overlay Silk Text to Silk Clearance [0.001mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Region (0 hole(s)) Top Overlay And Text "CAN" (75.025mm,3.585mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (0.02mm < 0.15mm) Between Region (0 hole(s)) Top Overlay And Text "eMMC" (67.142mm,76.908mm) on Top Overlay Silk Text to Silk Clearance [0.02mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "+5V" (9.7mm,7.385mm) on Top Overlay And Text "PWR IN" (4.675mm,10.075mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (0.045mm < 0.15mm) Between Text "CAN" (75.025mm,3.585mm) on Top Overlay And Track (81.482mm,2mm)(81.482mm,5mm) on Top Overlay Silk Text to Silk Clearance [0.045mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (0.045mm < 0.15mm) Between Text "CAN" (75.025mm,3.585mm) on Top Overlay And Track (81.482mm,5mm)(89.535mm,5mm) on Top Overlay Silk Text to Silk Clearance [0.045mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "DDR3L" (30.115mm,54.929mm) on Top Overlay And Track (29.9mm,45.65mm)(29.9mm,54.65mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "DDR3L" (30.115mm,54.929mm) on Top Overlay And Track (29.9mm,54.65mm)(43.9mm,54.65mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "DDR3L" (30.115mm,70.379mm) on Top Overlay And Track (29.9mm,61.1mm)(29.9mm,70.1mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "DDR3L" (30.115mm,70.379mm) on Top Overlay And Track (29.9mm,70.1mm)(43.9mm,70.1mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "DONE" (45.3mm,26.268mm) on Top Overlay And Track (46mm,24.675mm)(46mm,25.925mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "DONE" (45.3mm,26.268mm) on Top Overlay And Track (46mm,25.925mm)(48.6mm,25.925mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "DONE" (45.3mm,26.268mm) on Top Overlay And Track (48.6mm,24.675mm)(48.6mm,25.925mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "eMMC" (67.142mm,76.908mm) on Top Overlay And Track (63.746mm,79.1mm)(75.246mm,79.1mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "eMMC" (67.142mm,76.908mm) on Top Overlay And Track (74.246mm,79.1mm)(75.246mm,80.1mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "eMMC" (67.142mm,76.908mm) on Top Overlay And Track (75.246mm,79.1mm)(75.246mm,92.1mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "JTAG" (32.825mm,102.676mm) on Top Overlay And Track (32.576mm,104.549mm)(32.576mm,106.499mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 03:42:37INTENTIONAL
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "JTAG" (32.825mm,102.676mm) on Top Overlay And Track (32.576mm,104.549mm)(34.976mm,104.549mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 03:42:37INTENTIONAL
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "JTAG" (32.825mm,102.676mm) on Top Overlay And Track (34.976mm,104.549mm)(34.976mm,106.499mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 03:42:37INTENTIONAL
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "LED" (70.85mm,103.525mm) on Top Overlay And Track (72.4mm,101.875mm)(72.4mm,104.325mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 03:42:37INTENTIONAL
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "LED" (70.85mm,103.525mm) on Top Overlay And Track (72.4mm,104.325mm)(73.8mm,104.325mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 03:42:37INTENTIONAL
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "OTG" (86.55mm,105.976mm) on Top Overlay And Track (85.495mm,106.7mm)(86.15mm,106.7mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "OTG" (86.55mm,105.976mm) on Top Overlay And Track (86.15mm,106.7mm)(86.15mm,108.28mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (0.071mm < 0.15mm) Between Text "PG" (30.393mm,26.265mm) on Top Overlay And Track (29.975mm,24.55mm)(29.975mm,25.925mm) on Top Overlay Silk Text to Silk Clearance [0.071mm]Waived by Ugur Keles at 10.02.2026 03:42:37INTENTIONAL
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "PG" (30.393mm,26.265mm) on Top Overlay And Track (29.975mm,25.925mm)(32.6mm,25.925mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 03:42:37INTENTIONAL
+   Waived Violation between Silk To Silk Clearance Constraint: (0.074mm < 0.15mm) Between Text "PG" (30.393mm,26.265mm) on Top Overlay And Track (32.6mm,24.55mm)(32.6mm,25.925mm) on Top Overlay Silk Text to Silk Clearance [0.074mm]Waived by Ugur Keles at 10.02.2026 03:42:37INTENTIONAL
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "PL BTNS" (80.965mm,27.35mm) on Top Overlay And Track (81.448mm,27.352mm)(110.848mm,27.352mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "PL BTNS" (80.965mm,27.35mm) on Top Overlay And Track (81.448mm,27.352mm)(81.448mm,59.452mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "PL13" (112.875mm,32.378mm) on Top Overlay And Track (112.925mm,33.55mm)(112.925mm,35.15mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "PL13" (112.875mm,32.378mm) on Top Overlay And Track (115.45mm,33.55mm)(115.45mm,35.15mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "PL34" (112.9mm,42.328mm) on Top Overlay And Track (112.95mm,43.5mm)(112.95mm,45.1mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "PL34" (112.9mm,42.328mm) on Top Overlay And Track (115.475mm,43.5mm)(115.475mm,45.1mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "PL35" (112.925mm,51.578mm) on Top Overlay And Track (112.975mm,52.75mm)(112.975mm,54.35mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:54:31these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "PL35" (112.925mm,51.578mm) on Top Overlay And Track (115.5mm,52.75mm)(115.5mm,54.35mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:54:31these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "PS BTNS" (80.89mm,59.8mm) on Top Overlay And Track (81.448mm,27.352mm)(81.448mm,59.452mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "PS BTNS" (80.89mm,59.8mm) on Top Overlay And Track (81.448mm,59.452mm)(110.838mm,59.452mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "PS BTNS" (80.89mm,59.8mm) on Top Overlay And Track (81.448mm,59.798mm)(110.838mm,59.798mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "PS BTNS" (80.89mm,59.8mm) on Top Overlay And Track (81.448mm,59.798mm)(81.448mm,71.498mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "PS BTNS" (80.89mm,59.8mm) on Top Overlay And Track (81.448mm,71.498mm)(110.838mm,71.498mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "PSLD" (112.9mm,60.678mm) on Top Overlay And Track (112.967mm,61.896mm)(112.967mm,63.249mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 03:42:37INTENTIONAL
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "PSLD" (112.9mm,60.678mm) on Top Overlay And Track (112.967mm,61.896mm)(115.463mm,61.896mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 03:42:37INTENTIONAL
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "PSLD" (112.9mm,60.678mm) on Top Overlay And Track (115.463mm,61.896mm)(115.463mm,63.249mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 03:42:37INTENTIONAL
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "QSPI" (44.95mm,75.342mm) on Top Overlay And Track (44.737mm,76.763mm)(44.737mm,77.433mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "QSPI" (44.95mm,75.342mm) on Top Overlay And Track (44.737mm,76.763mm)(45.442mm,76.763mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (0.01mm < 0.15mm) Between Text "RS485" (99.45mm,3.585mm) on Top Overlay And Track (90.987mm,5.05mm)(99.04mm,5.05mm) on Top Overlay Silk Text to Silk Clearance [0.01mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (0.01mm < 0.15mm) Between Text "RS485" (99.45mm,3.585mm) on Top Overlay And Track (99.04mm,2.05mm)(99.04mm,5.05mm) on Top Overlay Silk Text to Silk Clearance [0.01mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "SE" (120.925mm,32.81mm) on Bottom Overlay And Track (114.55mm,35.35mm)(121.05mm,35.35mm) on Bottom Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "SE" (120.925mm,32.81mm) on Bottom Overlay And Track (121.05mm,35.35mm)(121.05mm,38.1mm) on Bottom Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "UK" (106.25mm,13.988mm) on Top Overlay And Track (103.725mm,17.625mm)(105.975mm,17.625mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "UK" (106.25mm,13.988mm) on Top Overlay And Track (104.725mm,16.275mm)(106.075mm,14.925mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "UK" (106.25mm,13.988mm) on Top Overlay And Track (106.075mm,14.2mm)(106.075mm,14.925mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "UK" (106.25mm,13.988mm) on Top Overlay And Track (107.675mm,11.6mm)(107.675mm,13.7mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "UK" (106.25mm,13.988mm) on Top Overlay And Track (107.725mm,19.575mm)(107.725mm,24.3mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "UK" (106.25mm,13.988mm) on Top Overlay And Track (111.05mm,11.2mm)(111.05mm,13.625mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "UK" (106.25mm,13.988mm) on Top Overlay And Track (111.075mm,19.475mm)(111.075mm,21.2mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "UK" (106.25mm,13.988mm) on Top Overlay And Track (114.082mm,19.505mm)(114.082mm,23.082mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "UK" (106.25mm,13.988mm) on Top Overlay And Track (115.575mm,11.775mm)(115.575mm,13.575mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "UK" (106.25mm,13.988mm) on Top Overlay And Track (116.425mm,15.725mm)(118.075mm,15.725mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "UK" (106.25mm,13.988mm) on Top Overlay And Track (116.45mm,17.75mm)(117.55mm,17.75mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 10.02.2026 02:53:03these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "ZYNQ" (62.082mm,66.653mm) on Top Overlay And Track (52.588mm,66.095mm)(69.588mm,66.095mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+   Waived Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "ZYNQ" (62.082mm,66.653mm) on Top Overlay And Track (69.588mm,49.095mm)(69.588mm,66.095mm) on Top Overlay Silk Text to Silk Clearance [0mm]Waived by Ugur Keles at 9.02.2026 20:28:17these are intentionally made designs
+Waived Violations :62
+
+Waived Violations Of Rule : Matched Lengths(Delay Tolerance=50ps) (InNetClass('eMMC'))
+   Waived Violation between Matched Net Lengths: Between Net PS_SD_CLK And Net PS_SD_CMD Delay:203.548ps is not within 50ps tolerance of Delay:307.02ps (53.472ps smaller) Waived by Ugur Keles at 10.02.2026 03:41:24CLK HAS A RESISTOR. OTHERS DIRECT. 
+   Waived Violation between Matched Net Lengths: Between Net PS_SD_CMD And Net SD_CLK_OUT Delay:139.013ps is not within 50ps tolerance of Delay:307.02ps (118.007ps smaller) Waived by Ugur Keles at 10.02.2026 03:41:24CLK HAS A RESISTOR. OTHERS DIRECT. 
+Waived Violations :2
+
+Waived Violations Of Rule : Matched Lengths(Delay Tolerance=50ps) (InNetClass('QSPI'))
+   Waived Violation between Matched Net Lengths: Between Net PS_QSPI_IO0_M3 And Net PS_QSPI_IO3_M0 Delay:158.49ps is not within 50ps tolerance of Delay:328.572ps (120.081ps smaller) Waived by Ugur Keles at 10.02.2026 03:32:34CLK HAS A RESISTOR. OTHERS DIRECT. 
+   Waived Violation between Matched Net Lengths: Between Net PS_QSPI_IO2_M2 And Net PS_QSPI_IO3_M0 Delay:262.036ps is not within 50ps tolerance of Delay:328.572ps (16.535ps smaller) Waived by Ugur Keles at 10.02.2026 03:32:34CLK HAS A RESISTOR. OTHERS DIRECT. 
+   Waived Violation between Matched Net Lengths: Between Net PS_QSPI_IO3_M0 And Net PS_QSPI_SCK_M4 Delay:161.223ps is not within 50ps tolerance of Delay:328.572ps (117.349ps smaller) Waived by Ugur Keles at 10.02.2026 03:32:34CLK HAS A RESISTOR. OTHERS DIRECT. 
+   Waived Violation between Matched Net Lengths: Between Net PS_QSPI_IO3_M0 And Net PS_QSPI_SS Delay:185.965ps is not within 50ps tolerance of Delay:328.572ps (92.606ps smaller) Waived by Ugur Keles at 10.02.2026 03:32:34CLK HAS A RESISTOR. OTHERS DIRECT. 
+   Waived Violation between Matched Net Lengths: Between Net PS_QSPI_IO3_M0 And Net QSPI_CLK Delay:39.37ps is not within 50ps tolerance of Delay:328.572ps (239.201ps smaller) Waived by Ugur Keles at 10.02.2026 03:32:34CLK HAS A RESISTOR. OTHERS DIRECT. 
+Waived Violations :5
+
+
+Violations Detected : 0
+Waived Violations : 69
+Time Elapsed        : 00:00:05
